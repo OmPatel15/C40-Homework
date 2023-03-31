@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+
+
+<!--Add database config here below-->
+<script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyB7td6Mk3--q5Ez2MzCYlW2UZ6xt1orfjw",
+  authDomain: "fruit-collector-66959.firebaseapp.com",
+  projectId: "fruit-collector-66959",
+  storageBucket: "fruit-collector-66959.appspot.com",
+  messagingSenderId: "746823866844",
+  appId: "1:746823866844:web:ae85e795e6d927c371d719"
+};
+
+firebase.initializeApp(firebaseConfig);
+</script>
+
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script src="player.js"></script>
+  <script src="game.js"></script>
+  <script src="form.js"></script>
+
+
+
+</body></html>
